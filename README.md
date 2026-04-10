@@ -29,6 +29,7 @@ User Input → Task Classifier → Router → Agents → Aggregator → NVIDIA L
 
 ## 📂 Project Structure
 
+```
 omnitext-ai
 │
 ├── app
@@ -38,6 +39,7 @@ omnitext-ai
 ├── retrieval
 ├── requirements.txt
 └── structure.txt
+```
 
 ---
 
