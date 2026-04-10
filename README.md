@@ -138,7 +138,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 💯 One-Line Summary
+## One-Line Summary
 
 OMNITEXT AI is a multi-agent AI system that processes text, voice, and documents using classical NLP + RAG + NVIDIA LLMs to generate intelligent structured outputs.
 
@@ -147,6 +147,7 @@ OMNITEXT AI is a multi-agent AI system that processes text, voice, and documents
 ## 👨‍💻 Author
 
 Mainak Sen
+LinkedIn: https://www.linkedin.com/in/techmainak001
 
 ---
 
