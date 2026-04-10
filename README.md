@@ -1,6 +1,6 @@
-# 🧠 NLP-OS: Multi-Agent AI System with NVIDIA LLM + Voice + RAG
+# 🧠 OMNITEXT AI: Multi-Agent AI System with NVIDIA LLM + Voice + RAG
 
-NLP-OS is a modular, production-style **Multi-Agent NLP System** that combines:
+OMNITEXT AI is a modular, production-style **Multi-Agent NLP System** that combines:
 - 🤖 Classical NLP (HuggingFace)
 - 🧠 NVIDIA LLMs (GPT-OSS)
 - 📄 RAG (Retrieval-Augmented Generation)
@@ -29,7 +29,7 @@ User Input → Task Classifier → Router → Agents → Aggregator → NVIDIA L
 
 ## 📂 Project Structure
 
-nlp-os/
+omnitext-ai/
 │
 ├── app/                # Streamlit UI
 ├── core/               # Orchestrator, Router, Aggregator
@@ -45,7 +45,7 @@ nlp-os/
 
 ### 1️⃣ Clone the Repository
 git clone https://github.com/your-username/OMNITEXT-AI.git
-cd nlp-os
+cd omnitext-ai
 
 ### 2️⃣ Create Virtual Environment
 python -m venv venv
@@ -135,7 +135,7 @@ streamlit run app/streamlit_app.py
 
 ## 💯 One-Line Summary
 
-NLP-OS is a multi-agent AI system that processes text, voice, and documents using classical NLP + RAG + NVIDIA LLMs to generate intelligent structured outputs.
+OMNITEXT AI is a multi-agent AI system that processes text, voice, and documents using classical NLP + RAG + NVIDIA LLMs to generate intelligent structured outputs.
 
 ---
 
