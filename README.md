@@ -23,60 +23,7 @@ It dynamically understands user intent and routes tasks to specialized agents.
 
 ## 🏗️ Architecture
 
-            ┌───────────────────────┐
-            │      User Input       │
-            │  (Text / Voice / PDF)│
-            └─────────┬─────────────┘
-                      │
-                      ▼
-            ┌───────────────────────┐
-            │   Input Processor     │
-            │ (STT, PDF Extractor)  │
-            └─────────┬─────────────┘
-                      │
-                      ▼
-            ┌───────────────────────┐
-            │   Task Classifier     │
-            │ (Intent Detection)    │
-            └─────────┬─────────────┘
-                      │
-                      ▼
-            ┌───────────────────────┐
-            │        Router         │
-            │  (Agent Selection)    │
-            └─────────┬─────────────┘
-                      │
-        ┌─────────────┼─────────────┐
-        ▼             ▼             ▼
-┌────────────┐ ┌────────────┐ ┌────────────┐
-│ Summarizer │ │   NER      │ │ Sentiment  │
-└────────────┘ └────────────┘ └────────────┘
-        ▼             ▼             ▼
-     (Other Agents: QA, Translation, Search, etc.)
-                      │
-                      ▼
-            ┌───────────────────────┐
-            │      Aggregator       │
-            │ (Combine Responses)   │
-            └─────────┬─────────────┘
-                      │
-                      ▼
-            ┌───────────────────────┐
-            │    RAG Pipeline       │
-            │ (FAISS + Embeddings)  │
-            └─────────┬─────────────┘
-                      │
-                      ▼
-            ┌───────────────────────┐
-            │     NVIDIA LLM        │
-            │   (GPT-OSS / NIM)     │
-            └─────────┬─────────────┘
-                      │
-                      ▼
-            ┌───────────────────────┐
-            │       Output          │
-            │ (Text / Voice / UI)   │
-            └───────────────────────┘
+User Input → Task Classifier → Router → Agents → Aggregator → NVIDIA LLM → Output
 
 ---
 
