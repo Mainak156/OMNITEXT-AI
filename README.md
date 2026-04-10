@@ -46,8 +46,10 @@ omnitext-ai
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
+```
 git clone https://github.com/your-username/OMNITEXT-AI.git
 cd omnitext-ai
+```
 
 ### 2️⃣ Create Virtual Environment
 python -m venv venv
@@ -60,6 +62,7 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 NVIDIA_API_KEY=your_nvidia_api_key_here
+
 NVIDIA_BASE_URL=your_nvidia_base_url_here
 
 ---
