@@ -147,6 +147,7 @@ OMNITEXT AI is a multi-agent AI system that processes text, voice, and documents
 ## 👨‍💻 Author
 
 Mainak Sen
+
 LinkedIn: https://www.linkedin.com/in/techmainak001
 
 ---
