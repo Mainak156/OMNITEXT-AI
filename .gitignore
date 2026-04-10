@@ -1,0 +1,107 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Logs & Runtime Files
+# =========================
+*.log
+logs/
+*.out
+*.err
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Model & Cache Files
+# =========================
+# HuggingFace cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Torch / HF weights
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# =========================
+# Data Files (Optional)
+# =========================
+data/raw/*
+data/processed/*
+data/embeddings/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/embeddings/.gitkeep
+
+# =========================
+# Audio / Temp Files
+# =========================
+*.wav
+*.mp3
+*.webm
+temp_audio.*
+*.flac
+
+# =========================
+# FAISS / Vector DB
+# =========================
+*.faiss
+*.index
+
+# =========================
+# PDF Uploads (User files)
+# =========================
+*.pdf
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Misc
+# =========================
+*.sqlite3
+*.db
